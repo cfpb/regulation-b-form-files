@@ -1,90 +1,30 @@
-This repository contains the native design files and source code for the model
-and sample disclosure forms the Consumer Financial Protection Bureau (CFPB)
-designed for its
-[final rule regarding Prepaid Accounts](https://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/prepaid-accounts-under-electronic-fund-transfer-act-regulation-e-and-truth-lending-act-regulation-z/)
-under the Electronic Fund Transfer Act (Regulation E) and the Truth In Lending
-Act (Regulation Z).
+This repository contains the native design files for the model and sample disclosure forms for the Equal Credit Opportunity Act (Regulation B).
 
 
-## About the prepaid rule
+## About Regulation B
 
-On October 5, 2016, the CFPB finalized strong, federal consumer protections for
-prepaid account users. The new rule requires financial institutions to limit
-consumers’ losses when funds are stolen or cards are lost, to investigate and
-resolve errors, and give consumers free and easy access to account information.
+The purpose of Regulation B is to promote the availability of credit to all creditworthy applicants without regard to race, color, religion, national origin, sex, marital status, or age (provided the applicant has the capacity to contract); to the fact that all or part of the applicant's income derives from a public assistance program; or to the fact that the applicant has in good faith exercised any right under the Consumer Credit Protection Act.  The regulation prohibits creditor practices that discriminate on the basis of any of these factors.  The regulation also requires creditors to notify applicants of action taken on their applications; to report credit history in the names of both spouses on an account; to retain records of credit applications; to collect information about the applicant's race and other personal characteristics in applications for certain dwelling-related loans; and to provide applicants with copies of appraisal reports used in connection with credit transactions.
 
-The Bureau’s new rule also includes new “Know Before You Owe” prepaid
-disclosures which provide consumers with standard, easy-to-understand, upfront
-information about prepaid accounts. Consumers cannot always tell what fees apply
-to prepaid accounts before purchasing or signing up for them because the
-disclosures may be inside the packaging or hard to find online. This can make it
-difficult to comparison shop and make well-informed decisions. The new rule sets
-an industry-wide standard on fee disclosures for prepaid accounts. This follows
-the tradition of the Bureau’s “Know Before You Owe” disclosure forms for
-mortgages and student financial aid awards. These disclosures simplify,
-organize, and present information in a way the consumer can easily understand
-and act upon. Under the new rule, prepaid consumers will have access to:
+Learn more about the Equal Credit Opportunity Act and Regulation be at [consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/equal-credit-opportunity-act/](https://www.consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/equal-credit-opportunity-act/).
 
-- Standard, easy-to-understand, upfront information: The CFPB rule requires two
-  forms, one short and one long, with easy-to-understand disclosures. The short
-  form concisely and clearly highlights key prepaid account information,
-  including the fees the CFPB believes are most important to consumers shopping
-  for a prepaid account. These include a periodic fee, per purchase fee, ATM
-  withdrawal and balance inquiry fees, cash reload fee, customer service fees,
-  and inactivity fee. The short form also must disclose certain information
-  about additional types of fees that the consumer may be charged. Consumers
-  will also get or be able to access the comprehensive long form disclosure
-  containing a complete list of fees and certain other key information before
-  acquiring the account.
-- Publicly available card agreements: To facilitate comparison shopping, the
-  rule requires prepaid account issuers to post on their websites the prepaid
-  account agreements they offer to the general public. Additionally, with a few
-  exceptions, issuers must submit all agreements to the CFPB, which intends to
-  post them on a public, Bureau-maintained website at a future date.  Also,
-  issuers must make any agreement not required to be posted on their website
-  available to applicable consumers.
-
-
-Read more about the rule in our
-[press release](https://www.consumerfinance.gov/about-us/newsroom/cfpb-finalizes-strong-federal-protections-prepaid-account-consumers)
-and at [consumerfinance.gov](https://www.consumerfinance.gov/).
 
 
 ## Source files
 
-For the convenience of the prepaid industry and to help reduce development
-costs, the Bureau is also providing native design files for print and source
-code for web-based disclosures for all of the model and sample forms included in
-the final rule.
+For the convenience of industry, the Bureau is providing native design files to print certain model forms in Regulation B.
 
-Native print design files (in EPS and PDF formats) can be found in the
-folder structure above, within the `print` folder.
+Native print design files (in EPS and PDF formats) can be found in the table below.
 
-| Form | Description |
-|------|-------------|
-| [Model form A-10(a)](print/cfpb_GovtCardShortForm_(A-10(a))) | Model Form for Short Form Disclosures for Government Benefit Accounts<br>(§1005.15(c) and §1005.18(b)(2), (3), (6), and (7)) |
-| [Model form A-10(b)](print/cfpb_PayrollCardShortForm_(A-10(b))) | Model Form for Short Form Disclosures for Payroll Card Accounts<br>(§1005.18(b)(2), (3), (6), and (7)) |
-| [Model form A-10(c)](print/cfpb_SinglePlanShortFormWithOverdraft_(A-10(c))) | Model Form for Short Form Disclosures for Prepaid Accounts, Example 1<br>(§1005.18(b)(2), (3), (6), and (7)) |
-| [Model form A-10(d)](print/cfpb_SinglePlanShortFormWithoutOverdraft_(A-10(d))) | Model Form for Short Form Disclosures for Prepaid Accounts, Example 2<br>(§1005.18(b)(2), (3), (6), and (7)) |
-| [Model form A-10(e)](print/cfpb_MultiplePlanShortForm_(A-10(e))) | Model Form for Short Form Disclosures for Prepaid Accounts with Multiple Service Plans<br>(§1005.18(b)(2), (3), (6), and (7)) |
-| [Sample form A-10(f)](print/cfpb_LongForm_(A-10(f))) | Sample Form for Long Form Disclosures for Prepaid Accounts<br>(§1005.18(b)(4), (6), and (7)) |
-
-[View the collected examples in a single PDF](https://files.consumerfinance.gov/f/documents/102016_cfpb_PrepaidDisclosures.pdf)
-
-Likewise, you can use the sample code to create the web versions of your disclosures:
-
-| Form | Description |
-|------|-------------|
-| Model form A-10(a)<br>[Code](web/cfpb_GovtCardShortForm_(A-10(a))) \| [Preview](https://cfpb.github.io/prepaid-disclosure-files/web/cfpb_GovtCardShortForm_(A-10(a))) | Model Form for Short Form Disclosures for Government Benefit Accounts<br>(§1005.15(c) and §1005.18(b)(2), (3), (6), and (7)) |
-| Model form A-10(b)<br>[Code](web/cfpb_PayrollCardShortForm_(A-10(b))) \| [Preview](https://cfpb.github.io/prepaid-disclosure-files/web/cfpb_PayrollCardShortForm_(A-10(b))) | Model Form for Short Form Disclosures for Payroll Card Accounts<br>(§1005.18(b)(2), (3), (6), and (7)) |
-| Model form A-10(c)<br>[Code](web/cfpb_SinglePlanShortFormWithOverdraft_(A-10(c))) \| [Preview](https://cfpb.github.io/prepaid-disclosure-files/web/cfpb_SinglePlanShortFormWithOverdraft_(A-10(c))) | Model Form for Short Form Disclosures for Prepaid Accounts, Example 1<br>(§1005.18(b)(2), (3), (6), and (7)) |
-| Model form A-10(d)<br>[Code](web/cfpb_SinglePlanShortFormWithoutOverdraft_(A-10(d))) \| [Preview](https://cfpb.github.io/prepaid-disclosure-files/web/cfpb_SinglePlanShortFormWithoutOverdraft_(A-10(d))) | Model Form for Short Form Disclosures for Prepaid Accounts, Example 2<br>(§1005.18(b)(2), (3), (6), and (7)) |
-| Model form A-10(e)<br>[Code](web/cfpb_MultiplePlanShortForm_(A-10(e))) \| [Preview](https://cfpb.github.io/prepaid-disclosure-files/web/cfpb_MultiplePlanShortForm_(A-10(e))) | Model Form for Short Form Disclosures for Prepaid Accounts with Multiple Service Plans<br>(§1005.18(b)(2), (3), (6), and (7)) |
-| Sample form A-10(f)<br>[Code](web/cfpb_LongForm_(A-10(f))) \| [Preview](https://cfpb.github.io/prepaid-disclosure-files/web/cfpb_LongForm_(A-10(f))) | Sample Form for Long Form Disclosures for Prepaid Accounts<br>(§1005.18(b)(4), (6), and (7)) |
-
-Each disclosure’s HTML file links to the CSS found in
-[web/static/css/style.css](web/static/css/style.css).
-
+| Form | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;Spanish&nbsp;&nbsp;translation&nbsp;&nbsp;&nbsp;<br>&nbsp;of&nbsp;forms|
+|----------------|:-----:|:-------:|
+| **Sample Form C-1** - Sample Notice of Action Taken and Statement of Reasons<br><br>([§ 1002.9(a)(2)(i)](https://www.consumerfinance.gov/rules-policy/regulations/1002/9/#a-2-i)) | [Form C-1.doc](print/Form%20C-1.docx)<br><br>[Form C-1.pdf](print/Form%20C-1_english.pdf) | [Form C-1.doc](print_es/Form%20C-1_es.docx)<br><br>[Form C-1.pdf](print_es/Form%20C-1_es.pdf) |
+| **Sample Form C-2** - Sample Notice of Action Taken and Statement of Reasons<br><br>([§ 1002.9(a)(2)(i)](https://www.consumerfinance.gov/rules-policy/regulations/1002/9/#a-2-i)) | [Form C-2.doc](print/Form%20C-2.docx)<br><br>[Form C-2.pdf](print/Form%20C-2_english.pdf) | [Form C-2.doc](print_es/Form%20C-2_es.docx)<br><br>[Form C-2.pdf](print_es/Form%20C-2_es.pdf) |
+| **Sample Form C-3** - Sample Notice of Action Taken and Statement of Reasons (Credit Scoring)<br><br>([§ 1002.9(a)(2)(i)](https://www.consumerfinance.gov/rules-policy/regulations/1002/9/#a-2-i)) | [Form C-3.doc](print/Form%20C-3.docx)<br><br>[Form C-3.pdf](print/Form%20C-3_english.pdf) | [Form C-3.doc](print_es/Form%20C-3_es.docx)<br><br>[Form C-3.pdf](print_es/Form%20C-3_es.pdf) |
+| **Sample Form C-4** - Sample Notice of Action Taken, Statement of Reasons and Counteroffer<br><br>([§ 1002.9(a)(2)(i)](https://www.consumerfinance.gov/rules-policy/regulations/1002/9/#a-2-i)) | [Form C-4.doc](print/Form%20C-4.docx)<br><br>[Form C-4.pdf](print/Form%20C-4_english.pdf) | [Form C-4.doc](print_es/Form%20C-4_es.docx)<br><br>[Form C-4.pdf](print_es/Form%20C-4_es.pdf) |
+| **Sample Form C-5** - Sample Disclosure of Right To Request Specific Reasons for Credit Denial<br><br>([§ 1002.9(a)(2)(ii)](https://www.consumerfinance.gov/rules-policy/regulations/1002/9/#a-2-ii)) | [Form C-5.doc](print/Form%20C-5.docx)<br><br>[Form C-5.pdf](print/Form%20C-5_english.pdf) | [Form C-5.doc](print_es/Form%20C-5_es.docx)<br><br>[Form C-5.pdf](print_es/Form%20C-5_es.pdf) |
+| **Sample Form C-6** - Sample Notice of Incomplete Application and Request for Additional Information<br><br>([§ 1002.9(c)(2)](https://www.consumerfinance.gov/rules-policy/regulations/1002/9/#c-2)) | [Form C-6.doc](print/Form%20C-6.docx)<br><br>[Form C-6.pdf](print/Form%20C-6_english.pdf) | [Form C-6.doc](print_es/Form%20C-6_es.docx)<br><br>[Form C-6.pdf](print_es/Form%20C-6_es.pdf) |
+| **Sample Form C-7** - Sample Notice of Action Taken and Statement of Reasons (Business Credit)<br><br>([§ 1002.9(a)(2)(i)](https://www.consumerfinance.gov/rules-policy/regulations/1002/9/#a-2-i)) | [Form C-7.doc](print/Form%20C-7.docx)<br><br>[Form C-7.pdf](print/Form%20C-7_english.pdf) | [Form C-7.doc](print_es/Form%20C-7_es.docx)<br><br>[Form C-7.pdf](print_es/Form%20C-7_es.pdf) |
+| **Sample Form C-8** - Sample Disclosure of Right To Request Specific Reasons for Credit Denial Given at Time of Application (Business Credit)<br><br>([§ 1002.9(a)(2)(ii)](https://www.consumerfinance.gov/rules-policy/regulations/1002/9/#a-2-ii)) | [Form C-8.doc](print/Form%20C-8.docx)<br><br>[Form C-8.pdf](print/Form%20C-8_english.pdf) | [Form C-8.doc](print_es/Form%20C-8_es.docx)<br><br>[Form C-8.pdf](print_es/Form%20C-8_es.pdf) |
 
 ## Contributing
 
@@ -113,10 +53,5 @@ or content of what is provided._
 
 ## Disclaimer
 
-The native design files and source code for the model and sample forms are
-provided for the convenience of the prepaid industry and to help reduce
-development costs.  They are not substitutes for otherwise following the
-requirements of the rule, and financial institutions must make sure that all
-disclosures, regardless of whether they use these design files and source code or
-not, comply with the specific requirements of the Prepaid Rule, available at
-https://www.consumerfinance.gov/policy-compliance/rulemaking/final-rules/prepaid-accounts-under-electronic-fund-transfer-act-regulation-e-and-truth-lending-act-regulation-z/.
+The native design files for the sample forms are provided for the convenience of the industry and to help reduce development costs. They are not substitutes for otherwise following the requirements of the regulation, and covered creditors must make sure that all disclosures, regardless of whether they use these design files or not, comply with the specific requirements of Regulation B. More information about Regulation B requirements is available at
+https://www.consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/equal-credit-opportunity-act/
